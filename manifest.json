@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Dont record my Google searches",
+  "version": "1.0",
+  "description": "Deletes Google searches from your browser history",
+  "permissions": ["alarms", "history"],
+  "background": {
+    "scripts": ["dont-record-my-search.js"],
+    "persistent": false
+  },
+  "manifest_version": 2
+}
