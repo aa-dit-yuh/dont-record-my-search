@@ -8,5 +8,7 @@
     "scripts": ["dont-record-my-search.js"],
     "persistent": false
   },
-  "manifest_version": 2
+  "icons": {
+    "128": "icons/128.png"
+  }
 }
