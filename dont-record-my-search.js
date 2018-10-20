@@ -15,3 +15,5 @@ chrome.alarms.onAlarm.addListener((alarm) => {
   if (alarm.name === 'delete-my-search')
     deleteMySearch();
 });
+// Triggers when icon is clicked
+chrome.browserAction.onClicked.addListener(deleteMySearch);
